@@ -11,16 +11,26 @@ body {
     display: block;
     margin-bottom: 20px;   
 }
+
+.button-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 100px);
+    grid-gap: 15px;
+    justify-content: center;
+    margin: 20px auto;
+}
 .btn {
     width: 100px;
     height: 100px;
     opacity: 0.5;
     cursor: pointer;
+    border: none;
     border-radius: 10px;
 }
 .btn.active {
     opacity: 1;
     box-shadow: 0 0 15px white;
+    transform: scale(1.05);
 }
 #btn0 {
     background: green;
@@ -41,4 +51,5 @@ button {
     border: none;
     cursor: pointer;
     margin-top: 20px;
+    border-radius: 5px;
 }
