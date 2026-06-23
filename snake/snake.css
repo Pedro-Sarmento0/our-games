@@ -1,0 +1,36 @@
+body {
+    background-color: #1e103c;
+    color: white;
+    font-family: sans-serif;
+    text-align: center;
+    padding: 20px;
+}
+.back {
+    color: #00ffcc;
+    text-decoration: none;
+    display: block;
+    margin-bottom: 20px;
+}
+canvas {
+    background: black;
+    border: 2px solid #00ffcc;
+    box-shadow: 0 0 15px #00ffcc;
+    display: block;
+    margin: 0 auto 20px;
+}
+.restart-btn {
+    display: block;
+    margin: 0 auto;
+    padding: 10px 20px;
+    background: #ff007f;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-top: 20px;
+    border-radius: 5px;
+    transition: background 0.2s;
+    font-weight: bold;
+}
+.restart-btn:hover {
+    background: #e0006c;
+}

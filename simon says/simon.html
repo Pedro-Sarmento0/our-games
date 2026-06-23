@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="simon.css">
+    <title>Simon Says</title>
+</head>
+<body>
+    <a href="../index.html" class="back">Back to Hub</a>
+    <h2>Simon Says</h2>
+    <p id="status">Press Start</p>
+
+    <div class="simon-board">
+        <div class="btn" id="btn0" onclick="playerPress(0)"></div>
+        <div class="btn" id="btn1" onclick="playerPress(1)"></div>
+        <div class="btn" id="btn2" onclick="playerPress(2)"></div>
+        <div class="btn" id="btn3" onclick="playerPress(3)"></div>
+    </div>
+    <button onclick="startGame()">Start</button>
+    <script src="simon.js"></script>
+</body>
+</html>

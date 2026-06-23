@@ -1,0 +1,45 @@
+body {
+    background-color: #1e103c;
+    color: white;
+    font-family: sans-serif;
+    text-align: center;
+    padding: 20px;
+}
+.back {
+    color: #00ffcc;
+    text-decoration: none;
+    display: block;
+    margin-bottom: 20px;
+}
+.board {
+    display: grid;
+    grid-template-columns: repeat(4, 80px);
+    gap: 10px;
+    justify-content: center;
+}
+.card {
+    width: 80px;
+    height: 80px;
+    background: #00ffcc;
+    color: transparent;
+    font-size: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.card.flipped {
+    background: white;
+    color: black;
+    cursor: default;
+}
+.restart-btn {
+    padding: 10px 20px;
+    background: #ff007f;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-top: 20px;
+    border-radius: 5px;
+}

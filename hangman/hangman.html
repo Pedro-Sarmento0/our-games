@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="hangman.css">
+    <title>Hangman</title>
+</head>
+<body>
+    <a href="../index.html" class="back">Back to Hub</a>
+    <div>
+        <h2>Hangman Game</h2>
+        <div id="word">_ _ _</div>
+        <p>Lives: <span id="lives">6</span></p>
+        <input type="text" id="guess" maxlength="1" placeholder="A">
+        <button onclick="makeGuess()">Guess</button>
+        <p id="message"></p>
+        <button onclick="restartGame()" class="restart-btn">Restart Game</button>
+    </div>
+    <script src="hangman.js"></script>
+</body>
+</html>
