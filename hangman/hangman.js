@@ -39,10 +39,10 @@ function checkWin() {
     let msgElement = document.getElementById("message");
 
     if (!guessed.includes("_")) {
-        msgElement.innerText = "🎉 You Won!";
+        msgElement.innerText = " You Won!";
         msgElement.style.color = "#00ffcc";
     } else if (lives <= 0) {
-        msgElement.innerText = '💥 Game Over!';
+        msgElement.innerText = ' Game Over!';
         msgElement.style.color = "#ff007f";
     }
 }

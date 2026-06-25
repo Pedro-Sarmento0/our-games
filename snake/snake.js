@@ -37,7 +37,7 @@ function draw() {
             ctx.fillStyle = "#ff007f";
         ctx.font = "30px sans-serif";
         ctx.textAlign = "center";
-        ctx.fillText("💥 Game Over!", 200, 180); 
+        ctx.fillText(" Game Over!", 200, 180); 
         }
     return;
 }
