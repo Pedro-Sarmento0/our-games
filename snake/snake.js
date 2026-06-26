@@ -78,7 +78,7 @@ function resetGame() {
     dy = 0;
     gameStarted = false;
     gameOver = false;
-    ctx.textAling = "left";
+    ctx.textAlign = "left";
 }
 
-setInterval(draw, 100);
+setInterval(draw, 200);
